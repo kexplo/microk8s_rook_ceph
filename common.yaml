@@ -663,7 +663,7 @@ spec:
   # Ceph OSDs need to share the same PID namespace
   hostPID: true
   # hostNetwork can be set to 'false' if host networking isn't used
-  hostNetwork: true
+  hostNetwork: false
   hostPorts:
     # Ceph messenger protocol v1
     - min: 6789

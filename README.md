@@ -6,6 +6,8 @@
 $ git clone --single-branch --branch v1.5.8 https://github.com/rook/rook.git
 $ cp operator.yaml rook/cluster/examples/kubernetes/ceph/
 $ cp cluster.yaml rook/cluster/examples/kubernetes/ceph/
+# copy common.yaml only if you want to disable hostNetwork
+$ cp common.yaml rook/cluster/examples/kubernetes/ceph/
 ```
 
 ## Install
